@@ -1,0 +1,170 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-photo {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  margin: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/* FEATURES */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-col {
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 10px;
+}
+
+.features-h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.features-img {
+  width: 200px;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-img:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+/* PRESS */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-grid {
+padding: 0;
+padding-left: 0;
+padding-right: 0;
+}
+
+@media (max-width: 990px) {
+
+#title {
+  text-align: center;
+}
+
+.title-photo {
+  position: static;
+  transform: rotate(0);
+}
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15% 5%;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  color: #8f8f8f;
+  padding: 5% 15% 5%;
+}
+
+.footer-icon {
+  color: black;
+  padding: 2% 1%;
+}
